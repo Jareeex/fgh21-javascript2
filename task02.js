@@ -7,9 +7,10 @@ const names = [
     ];
     function searchName(arr, cb){
 
-        let result = []
+        let result = 
+            const filterNama = /an/
         
-        for(let i=0; i < arr.length; i++){
+        for(let i=0; i < arr.length  && filterNama.test(arr[i]); i++){
         const nama = arr[i]
         result = [...result, nama]
    
