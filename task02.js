@@ -8,9 +8,9 @@ const names = [
     function searchName(arr, cb){
 
         let result = 
-            const filterNama = /an/
+            
         
-        for(let i=0; i < arr.length  && filterNama.test(arr[i]); i++){
+        for(let i=0; i < arr.length; i++){
         const nama = arr[i]
         result = [...result, nama]
    
@@ -24,10 +24,11 @@ const names = [
         function limit(arr, lim){
         
         let result = []
+            const filterNama = /an/
         
         for(let i=0; i < lim; i++){
         
-        if(arr[i] !== undefined) {
+        if(arr[i] !== undefined && filterNama.test(arr[i])) {
         
         result = [...result, arr[i]]
            
