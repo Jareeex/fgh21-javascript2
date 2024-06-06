@@ -24,7 +24,7 @@ const names = [
         function limit(arr, lim){
         
         let result = []
-            const filterNama = /an/
+            const filterNama = /an/i
         
         for(let i=0; i < lim; i++){
         
